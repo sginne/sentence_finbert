@@ -1,4 +1,8 @@
-# finbert_embedding
+# sentence_finbert (based on finbert_embedding)
+
+25.03.2021 finbert_embedding cloned, rebranded to sentence_finbert, because I am going mainly to address generation of sentence_vectors. Counting meanvector, is almost like measuring mean temperature of all patients in hospital. Sarcastically useful number.
+
+Old *readme* can be found below:
 Token and sentence level embeddings from FinBERT model (Financial Domain).
 
 [BERT](https://arxiv.org/abs/1810.04805), published by Google, is conceptually simple and empirically powerful as it obtained state-of-the-art results on eleven natural language processing tasks.  
