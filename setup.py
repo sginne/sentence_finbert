@@ -4,16 +4,16 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="finbert-embedding",
-    packages=['finbert_embedding'],
-    version="0.1.4",
-    author="Abhijeet Kumar",
-    author_email="abhijeetchar@gmail.com",
-    description="Embeddings from Financial BERT",
+    name="sentence-finbert",
+    packages=['sentence_finbert'],
+    version="0.0.1",
+    author="Timo Junolainen",
+    author_email="sigin@norsula.com",
+    description="Based in finbert_embedding by ahijeet3922, includes RNN for more sophisticated sentence vectorizing",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/abhijeet3922/finbert_embedding",
-    download_url="https://github.com/abhijeet3922/finbert_embedding/archive/v0.1.4.tar.gz",
+    url="https://github.com/sginne/sentence_finbert.git",
+    download_url="",
     install_requires=[
           'torch>=1.1.0',
           'pytorch-pretrained-bert==0.6.2',
