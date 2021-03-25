@@ -12,7 +12,7 @@ setuptools.setup(
     description="Based in finbert_embedding by ahijeet3922, includes RNN for more sophisticated sentence vectorizing",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sginne/sentence_finbert.git",
+    url="git@github.com:sginne/sentence_finbert.git",
     download_url="",
     install_requires=[
           'torch>=1.1.0',
